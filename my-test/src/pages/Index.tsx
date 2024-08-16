@@ -4,14 +4,14 @@ import ImgMobile from '../assets/illustration-sign-up-mobile.svg';
 import ImgDesktop from '../assets/illustration-sign-up-desktop.svg';
 import '../styles/Subscribe.css';
 import '../styles/Loader.css';
-import Card from "./Card";
-import ToggleButton from "./ToggleButton";
-import SignIn from "./Signin";
-import SignUp from "./Signup";
+import Card from "../components/Card";
+import ToggleButton from "../components/ToggleButton";
+import SignIn from "../components/Signin";
+import SignUp from "../components/Signup";
 import { useSelector } from "react-redux";
 import { RootState } from "../redux/store";
-import Loader from "./Loader";
-import Success from "./Success";
+import Loader from "../components/Loader";
+import Success from "../components/Success";
 
 const Index = () => {
   const isLoading = useSelector((state: RootState) => state?.userReducer?.isLoading)

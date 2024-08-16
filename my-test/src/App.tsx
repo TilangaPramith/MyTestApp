@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './App.css';
-import Index from './components/Index';
+import Index from './pages/Index';
 import { Provider } from 'react-redux';
 import { store } from './redux/store';
 
